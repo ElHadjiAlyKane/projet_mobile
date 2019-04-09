@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:id="@+id/accueil"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="fill_vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="34dp">
+
+        <TextView
+            android:id="@+id/titre"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_marginTop="30px"
+            android:layout_marginBottom="70px"
+            android:text="Bienvenue sur l'application"
+            android:textAlignment="center"
+            android:textSize="40px"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnConnexion"
+            android:layout_width="match_parent"
+            android:layout_height="90px"
+            android:layout_gravity="center"
+            android:layout_marginTop="60px"
+            android:layout_marginRight="15px"
+            android:layout_marginLeft="15px"
+            android:layout_marginBottom="20px"
+            android:text="Se Connecter"
+            android:textAlignment="center"
+            android:textSize="20px"
+            android:textStyle="italic"
+            android:background="@color/colorPrimary"></Button>
+
+        <Button
+            android:id="@+id/btnInscription"
+            android:layout_width="match_parent"
+            android:layout_height="90px"
+            android:layout_gravity="center"
+            android:layout_marginTop="20px"
+            android:layout_marginLeft="15px"
+            android:layout_marginRight="15px"
+            android:text="S'inscrire"
+            android:textAlignment="center"
+            android:textSize="20px"
+            android:textStyle="italic"
+            android:clickable="true"
+            android:background="@color/colorPrimary"></Button>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

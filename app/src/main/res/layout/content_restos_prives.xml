@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".RestosPrivesActivity"
+    tools:showIn="@layout/activity_restos_prives">
+
+    <LinearLayout
+        android:id="@+id/restos_prives"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10px"
+        android:paddingRight="10px"
+        android:gravity="fill">
+
+        <TextView
+            android:id="@+id/titre"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_marginTop="30px"
+            android:layout_marginBottom="70px"
+            android:text="Faites votre choix parmi les divers restos prives"
+            android:textAlignment="center"
+            android:textSize="40px"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnKhairati"
+            android:layout_width="match_parent"
+            android:layout_height="90px"
+            android:layout_gravity="center"
+            android:layout_marginTop="60px"
+            android:layout_marginRight="15px"
+            android:layout_marginLeft="15px"
+            android:layout_marginBottom="20px"
+            android:text="Khairati"
+            android:textAlignment="center"
+            android:textSize="30px"
+            android:textStyle="italic"
+            android:background="@color/colorPrimary"></Button>
+
+        <Button
+            android:id="@+id/btnMoSafle"
+            android:layout_width="match_parent"
+            android:layout_height="90px"
+            android:layout_gravity="center"
+            android:layout_marginTop="30px"
+            android:layout_marginLeft="15px"
+            android:layout_marginRight="15px"
+            android:text="Mo Safle"
+            android:textAlignment="center"
+            android:textSize="30px"
+            android:textStyle="italic"
+            android:clickable="true"
+            android:background="@color/colorPrimary"></Button>
+
+        <Button
+            android:id="@+id/btnKhoule"
+            android:layout_width="match_parent"
+            android:layout_height="90px"
+            android:layout_gravity="center"
+            android:layout_marginTop="30px"
+            android:layout_marginLeft="15px"
+            android:layout_marginRight="15px"
+            android:text="Le Bon Gout"
+            android:textAlignment="center"
+            android:textSize="30px"
+            android:textStyle="italic"
+            android:clickable="true"
+            android:background="@color/colorPrimary"></Button>
+
+        <Button
+            android:id="@+id/btnKBD"
+            android:layout_width="match_parent"
+            android:layout_height="90px"
+            android:layout_gravity="center"
+            android:layout_marginTop="30px"
+            android:layout_marginLeft="15px"
+            android:layout_marginRight="15px"
+            android:text="KBD"
+            android:textAlignment="center"
+            android:textSize="30px"
+            android:textStyle="italic"
+            android:clickable="true"
+            android:background="@color/colorPrimary"></Button>
+
+        <Button
+            android:id="@+id/btnPrincesse"
+            android:layout_width="match_parent"
+            android:layout_height="90px"
+            android:layout_gravity="center"
+            android:layout_marginTop="30px"
+            android:layout_marginLeft="15px"
+            android:layout_marginRight="15px"
+            android:text="La Princesse"
+            android:textAlignment="center"
+            android:textSize="30px"
+            android:textStyle="italic"
+            android:clickable="true"
+            android:background="@color/colorPrimary"></Button>
+
+        <Button
+            android:id="@+id/btnDarou"
+            android:layout_width="match_parent"
+            android:layout_height="90px"
+            android:layout_gravity="center"
+            android:layout_marginTop="30px"
+            android:layout_marginLeft="15px"
+            android:layout_marginRight="15px"
+            android:text="Darou"
+            android:textAlignment="center"
+            android:textSize="30px"
+            android:textStyle="italic"
+            android:clickable="true"
+            android:background="@color/colorPrimary"></Button>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

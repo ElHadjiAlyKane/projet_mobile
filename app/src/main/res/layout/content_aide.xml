@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".aideActivity"
+    tools:showIn="@layout/activity_aide">
+
+    <LinearLayout
+        android:id="@+id/accueil"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="fill_vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="34dp">
+
+    <TextView
+        android:id="@+id/entete"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_margin="20px"
+        android:text="Bienvenue sur l'aide de notre application. Il vous est propose divers themes abordant les
+        differnetes fonctionnalites de notre produit"
+        android:textAlignment="center"
+        android:textSize="40px"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/aide_accueil"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_margin="20px"
+        android:text="--- ACCUEIL --- Des le demarrage de l'application, il vous est propose la page d'accueil
+        qui comporte deux fonctionnalites: Connexion et Inscription. Si vous navez pas de compte le bouton S'inscrire
+        vous aidera a rejoindre nos precieux utilisateurs. Sinon ouvrez votre compte grace a l'autre bouton."
+        android:textAlignment="center"
+        android:textSize="40px"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/aide_connexion"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_margin="20px"
+        android:text="-- CONNEXION -- Sur l'interface de connexion, vous n'avez qu'a saisir votre
+        nom d'utilisateur et votre mot de passe pour acceder pleinement aux fonctionnalites"
+        android:textAlignment="center"
+        android:textSize="40px"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/aide_inscription"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_margin="20px"
+        android:text="-- INSCRIPTION -- Donnez un nom d'utilisateur et un ,mot de passe pour creer
+        votre compte sur notre platforme"
+        android:textAlignment="center"
+        android:textSize="40px"
+        android:textStyle="bold" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
